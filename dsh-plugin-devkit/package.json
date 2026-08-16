@@ -1,0 +1,16 @@
+{
+  "name": "dsh-plugin-devkit",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "DSH host plugin: safe plugin development toolkit — plugin_check / plugin_test_boot / plugin_backup / plugin_new / plugin_install / plugin_quarantine. Turns the verified development pipeline into callable tools.",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh-tools": "^0.1.0-rc.6",
+    "@deepseek-ai/schemastery": "^3.18.1"
+  },
+  "license": "MIT"
+}

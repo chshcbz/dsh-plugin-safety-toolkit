@@ -1,0 +1,26 @@
+{
+  "name": "dsh-safe",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Safe launcher for DSH (DeepSeek Harness): pre-boot plugin import probe, quarantine overlay, boot-health handshake and safe mode. Guarantees a broken user plugin cannot prevent the host from starting. Zero runtime dependencies.",
+  "bin": {
+    "dsh-safe": "cli.mjs"
+  },
+  "files": [
+    "cli.mjs",
+    "lib",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20.6"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "safety",
+    "quarantine",
+    "boot"
+  ],
+  "license": "MIT"
+}

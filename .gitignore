@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+*.tgz
+dist/
+lib/*.map
+
+# Runtime state / backups
+dsh-backups/
+*.log
+.dsh-safe/
+*.state.json
+*.quarantine.yml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
